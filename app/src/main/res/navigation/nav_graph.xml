@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ex.generaltexteditor.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/toBottomSheet"
+            app:destination="@id/bottomSheetEditor"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/toFullScreenEditor"
+            app:destination="@id/fullScreenEditor"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/toEditorWithHtml"
+            app:destination="@id/editorWithHtml"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottomSheetEditor"
+        android:name="com.ex.generaltexteditor.BottomSheetEditorFragment"
+        android:label="Bottom Sheet Editor"
+        tools:layout="@layout/fragment_bottom_sheet_editor_main" />
+
+    <fragment
+        android:id="@+id/fullScreenEditor"
+        android:name="com.ex.generaltexteditor.FullScreenEditorFragment"
+        android:label="Full Screen Editor"
+        tools:layout="@layout/fragment_full_screen_editor" />
+
+    <fragment
+        android:id="@+id/editorWithHtml"
+        android:name="com.ex.generaltexteditor.EditorWithHtmlFragment"
+        android:label="Editor With Html Text"
+        tools:layout="@layout/fragment_editor_with_html" />
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">General Text Editor</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">General Editor</string>
+    <string name="write_notes_here">Write notes here…</string>
+    <string name="bottom_sheet_editor">Bottom Sheet Editor</string>
+    <string name="full_screen_editor">Full Screen Editor</string>
+    <string name="editor_with_html_text">Editor With Html Text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
