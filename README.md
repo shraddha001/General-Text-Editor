@@ -6,9 +6,7 @@ It includes Bold, Italic, Bullets, Number Bullets, Redo, Undo, Underline text wi
 
 Add the dependency in your **build.gradle**:
 
-dependencies {
     implementation("com.github.shraddha001:General-Text-Editor:1.0.0")
-}
 
 Images ->
 
