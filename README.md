@@ -2,6 +2,14 @@
 
 It includes Bold, Italic, Bullets, Number Bullets, Redo, Undo, Underline text with Html Preview
 
+## Installation
+
+Add the dependency in your **build.gradle**:
+
+dependencies {
+    implementation("com.github.shraddha001:General-Text-Editor:1.0.0")
+}
+
 Images ->
 
 Full Screen Editor ->
